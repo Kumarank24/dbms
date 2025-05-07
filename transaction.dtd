@@ -1,0 +1,7 @@
+<!DOCTYPE transationdetail [
+<!ELEMENT transactiondetail(‘transaction’)>
+<!ELEMENT transaction(user_id, transaction_id,transaction_date)>
+<!ELEMENT user_id(#PCDATA)>
+<!ELEMENT transaction_id(#PCDATA)>
+<!ELEMENT transaction_date(#PCDATA)>
+]>
